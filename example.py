@@ -1,4 +1,4 @@
-from query import AAVSODataFetcher
+from aavso_query import AAVSODataFetcher
 from plotter import Plotter
 
 fetcher = AAVSODataFetcher(
