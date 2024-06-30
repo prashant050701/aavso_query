@@ -1,4 +1,5 @@
-from setuptools import setup, find_packages
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
     name='aavsoquery',
@@ -6,7 +7,7 @@ setup(
     author='Divyansh Srivastava',
     author_email='315075@stud.umk.pl',
     description='A Python module for fetching and plotting astronomical data of stars from AAVSO',
-    long_description=open('README.md').read(),
+    long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/prashant050701/aavso_query',
     packages=find_packages(),
