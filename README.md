@@ -20,8 +20,8 @@ pip install aavsoquery
 Here is an example of how to use `aavsoquery`:
 
 ```python
-from aavso_query import AAVSODataFetcher
-from plotter import Plotter
+from aavso_query.aavso_query import AAVSODataFetcher
+from aavso_query.plotter import Plotter
 
 fetcher = AAVSODataFetcher(
     star_name='T CrB',
