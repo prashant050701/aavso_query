@@ -1,5 +1,4 @@
-from aavso_query import AAVSODataFetcher
-from plotter import Plotter
+from aavsoquery import AAVSODataFetcher, Plotter
 
 fetcher = AAVSODataFetcher(
     star_name='T CrB',
