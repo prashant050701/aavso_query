@@ -5,9 +5,9 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name='aavsoquery',
-    version='1.0.0',
+    version='1.0.2',
     author='Divyansh Srivastava',
-    author_email='315075@stud.umk.pl',
+    author_email='divyansh@umk.pl',
     description='A Python module for fetching and plotting astronomical data of stars from AAVSO',
     long_description=long_description,
     long_description_content_type='text/markdown',
