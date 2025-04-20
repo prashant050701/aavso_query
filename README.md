@@ -1,11 +1,11 @@
 # AAVSO Query
 
-This Python package `aavsoquery` allows fetching and visualizing astronomical observational data from the AAVSO (American Association of Variable Star Observers) database. It provides tools to retrieve data, plot light curves, and optionally fit models to the observed data.
+This Python package `aavsoquery` allows fetching and visualising astronomical observational data from the AAVSO (American Association of Variable Star Observers) database. It provides tools to retrieve data, plot light curves, and optionally fit models to the observed data.
 
 ## Features
 
 - **Data Fetching**: Fetch observational data for a specific star including visual observations.
-- **Light Curve Plotting**: Plot light curves with customizable time intervals.
+- **Light Curve Plotting**: Plot light curves with customisable time intervals.
 - **Model Fitting**: Optional fitting of Gaussian models to the light curve data.
 
 ## Installation
@@ -20,8 +20,7 @@ pip install aavsoquery
 Here is an example of how to use `aavsoquery`:
 
 ```python
-from aavso_query.aavso_query import AAVSODataFetcher
-from aavso_query.plotter import Plotter
+from aavsoquery import AAVSODataFetcher, Plotter
 
 fetcher = AAVSODataFetcher(
     star_name='T CrB',
